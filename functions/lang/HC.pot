@@ -1,0 +1,1177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HealthCenter\n"
+"POT-Creation-Date: 2014-03-13 19:08+0530\n"
+"PO-Revision-Date: 2014-03-13 19:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: Webriti\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../breadcrumb/webriti_breadcrumb.php:98
+msgid "Page"
+msgstr ""
+
+#: ../commentbox/comment-function.php:12
+msgid "Reply"
+msgstr ""
+
+#: ../commentbox/comment-function.php:20
+msgid "at"
+msgstr ""
+
+#: ../commentbox/comment-function.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../meta-box/post-meta.php:56
+msgid "Slider text"
+msgstr ""
+
+#: ../meta-box/post-meta.php:69
+msgid "Service Icon (Using Font Awesome icons name) like: fa-rub ."
+msgstr ""
+
+#: ../meta-box/post-meta.php:69
+msgid "Get your fontawesome icons."
+msgstr ""
+
+#: ../meta-box/post-meta.php:71
+msgid "Service Link"
+msgstr ""
+
+#: ../meta-box/post-meta.php:72 ../meta-box/post-meta.php:100
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../meta-box/post-meta.php:82
+msgid "Testimonial Description"
+msgstr ""
+
+#: ../meta-box/post-meta.php:84
+msgid "Testimonial Author Designation"
+msgstr ""
+
+#: ../meta-box/post-meta.php:98
+msgid "Portfolio / Project Link"
+msgstr ""
+
+#: ../meta-box/post-meta.php:101
+msgid "Your clients"
+msgstr ""
+
+#: ../meta-box/post-meta.php:103
+msgid "Visit Website URL"
+msgstr ""
+
+#: ../meta-box/post-meta.php:105
+msgid "Summay Text"
+msgstr ""
+
+#: ../meta-box/post-meta.php:124
+msgid "Members Designation"
+msgstr ""
+
+#: ../meta-box/post-meta.php:126
+msgid "Role Description"
+msgstr ""
+
+#: ../meta-box/post-meta.php:129
+msgid "Social Media Setting"
+msgstr ""
+
+#: ../meta-box/post-meta.php:130
+msgid "Facebook"
+msgstr ""
+
+#: ../meta-box/post-meta.php:133
+msgid "Twitter Url"
+msgstr ""
+
+#: ../meta-box/post-meta.php:137
+msgid "LinkedIn Url"
+msgstr ""
+
+#: ../meta-box/post-meta.php:141
+msgid "Google Url"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:16 ../post-type/custom-post-type.php:18
+msgid "Add New Slide"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:17
+msgid "Add New Slider"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:19 ../post-type/custom-post-type.php:49
+#: ../post-type/custom-post-type.php:78 ../post-type/custom-post-type.php:107
+#: ../post-type/custom-post-type.php:137
+msgid "New Link"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:20
+msgid "All Featured Sliders"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:21 ../post-type/custom-post-type.php:51
+#: ../post-type/custom-post-type.php:109 ../post-type/custom-post-type.php:139
+msgid "View Link"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:22 ../post-type/custom-post-type.php:52
+#: ../post-type/custom-post-type.php:110 ../post-type/custom-post-type.php:140
+msgid "Search Links"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:23 ../post-type/custom-post-type.php:53
+#: ../post-type/custom-post-type.php:111 ../post-type/custom-post-type.php:141
+msgid "No Links found"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:24 ../post-type/custom-post-type.php:54
+#: ../post-type/custom-post-type.php:112 ../post-type/custom-post-type.php:142
+msgid "No Links found in Trash"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:46 ../post-type/custom-post-type.php:48
+msgid "Add New service"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:47
+msgid "Add New Service"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:50
+msgid "All Services"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:75 ../post-type/custom-post-type.php:76
+#: ../post-type/custom-post-type.php:77
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:79
+msgid "All Testimonials"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:80
+msgid "View Testimonial"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:81
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:82
+msgid "No Testimonials found"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:83
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:104
+msgid "Add New Item"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:105
+msgid "Add New Project"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:106
+msgid "Add New Portfolio / project"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:108
+msgid "All Portfolio Project"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:134
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:135 ../post-type/custom-post-type.php:136
+msgid "Add New Member"
+msgstr ""
+
+#: ../post-type/custom-post-type.php:138
+msgid "All Team Member"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:31
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:67
+msgid "Shortcode Selector"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:75
+msgid "Shortcodes"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:76
+msgid "Accordion"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:77
+msgid "Alert"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:78
+msgid "Button"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:79
+msgid "Tabs"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:80
+msgid "Drop-Caps"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:81
+msgid "Grid System Layout"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:82
+msgid "Tool Tip"
+msgstr ""
+
+#: ../shortcodes/shortcodes_iframe.php:83
+msgid "Heading"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:8
+msgid "Health Center"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:10
+msgid "Support Desk"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:11
+msgid "Theme Documentation"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:12
+msgid "View Changelog"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:22
+msgid "Home Page"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:23
+msgid "Quick Start"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:24
+msgid "Slider Setting"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:25
+msgid "Service Setting"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:26
+#: ../theme_options/pages/home_project_portfolio_settings.php:26
+msgid "Project Portfolio"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:27
+msgid "Footer call out area"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:28
+msgid "FAQ for HomePage"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:32
+#: ../theme_options/pages/typography.php:129
+msgid "Typography"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:35
+#: ../theme_options/pages/post_type_slug.php:34
+msgid "Post Type Slug"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:38
+msgid "Contact Page"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:39
+#: ../theme_options/pages/contact_page_settings.php:49
+msgid "Contact Information"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:40
+msgid "Social media links"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:41
+#: ../theme_options/pages/google_maps_settings.php:30
+msgid "Google Maps"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:45
+#: ../theme_options/pages/head_titles.php:36
+msgid "Section Headings"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:48
+msgid "Layout Manager"
+msgstr ""
+
+#: ../theme_options/webriti_option_pannel.php:51
+msgid "Footer Customization"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:52
+#: ../theme_options/pages/contact_social_media_settings.php:53
+#: ../theme_options/pages/footer_customization_settings.php:33
+#: ../theme_options/pages/google_maps_settings.php:32
+#: ../theme_options/pages/head_titles.php:39
+#: ../theme_options/pages/home_call_out_settings.php:30
+#: ../theme_options/pages/home_layout_manager.php:35
+#: ../theme_options/pages/home_page_settings.php:51
+#: ../theme_options/pages/home_project_portfolio_settings.php:28
+#: ../theme_options/pages/home_service_settings.php:35
+#: ../theme_options/pages/home_slider_settings.php:40
+#: ../theme_options/pages/option_faq_settings.php:63
+#: ../theme_options/pages/post_type_slug.php:36
+#: ../theme_options/pages/typography.php:131
+msgid "Options data successfully Saved"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:53
+#: ../theme_options/pages/contact_social_media_settings.php:54
+#: ../theme_options/pages/footer_customization_settings.php:34
+#: ../theme_options/pages/google_maps_settings.php:33
+#: ../theme_options/pages/head_titles.php:40
+#: ../theme_options/pages/home_call_out_settings.php:31
+#: ../theme_options/pages/home_layout_manager.php:36
+#: ../theme_options/pages/home_page_settings.php:52
+#: ../theme_options/pages/home_project_portfolio_settings.php:29
+#: ../theme_options/pages/home_service_settings.php:36
+#: ../theme_options/pages/home_slider_settings.php:41
+#: ../theme_options/pages/option_faq_settings.php:64
+#: ../theme_options/pages/post_type_slug.php:37
+#: ../theme_options/pages/typography.php:132
+msgid "Options data successfully reset"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:65
+msgid "Get in Touch"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:66
+msgid "Enable Get in touch in contact page."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:70
+msgid "Get in Touch Text:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:72
+#: ../theme_options/pages/contact_page_settings.php:77
+msgid "Enter Get in touch text."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:75
+msgid "Send Us a Message Text:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:80
+msgid "Contact Address Line One:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:82
+#: ../theme_options/pages/contact_page_settings.php:87
+msgid "Enter Contact address."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:85
+msgid "Contact Address Line Two:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:90
+msgid "Contact Phone Number:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:92
+msgid "Enter Contact phone number."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:95
+msgid "Contact Fax Number:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:97
+msgid "Enter Contact fax number."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:101
+msgid "Contact Email:"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:103
+msgid "Enter Contact email address."
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:107
+msgid "Website :"
+msgstr ""
+
+#: ../theme_options/pages/contact_page_settings.php:109
+msgid "Enter your website address."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:51
+msgid "Social media"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:65
+msgid "Enable Social media:"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:66
+msgid "Enable social media in contact page."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:67
+msgid "Enable social media on Header."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:68
+msgid "Enable Social media in footer section."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:71
+msgid "Twitter Link:"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:73
+msgid "Enter twitter link."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:76
+msgid "Linkedin Links:"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:78
+msgid "Enter linkedin link."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:82
+msgid "Facebook Links:"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:84
+msgid "Enter facebook link."
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:88
+msgid "Google Plus Links:"
+msgstr ""
+
+#: ../theme_options/pages/contact_social_media_settings.php:90
+msgid "Enter google plus link."
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:31
+msgid "Footer Customizations"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:45
+msgid "footer customizations text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:47
+msgid "Enter the footer customizations text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:50
+msgid "Created By text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:52
+msgid "Enter the Created By text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:55
+msgid "Created By Webriti text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:57
+msgid "Enter the created by webriti text"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:61
+msgid "Created By Link"
+msgstr ""
+
+#: ../theme_options/pages/footer_customization_settings.php:63
+msgid "Enter the Call Out Button Link"
+msgstr ""
+
+#: ../theme_options/pages/google_maps_settings.php:44
+msgid "Enable Google Map in contact page :"
+msgstr ""
+
+#: ../theme_options/pages/google_maps_settings.php:45
+msgid "Enable Google map on contact page."
+msgstr ""
+
+#: ../theme_options/pages/google_maps_settings.php:48
+msgid "Google Map URL:"
+msgstr ""
+
+#: ../theme_options/pages/google_maps_settings.php:51
+msgid "Enter google map url."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:52
+msgid "Home Page News Section Heading"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:54
+msgid "Enter Heading for News Section."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:57
+msgid "Home Page FAQ Heading"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:59
+msgid "Enter Heading for FAQ Section."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:62
+msgid "Home Page Testmonials Heading"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:64
+msgid "Enter Heading for Testimonials Section."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:67
+msgid "About Us Page Team Heading One"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:69
+msgid "Enter Team Heading One for ABOUT US Page."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:72
+msgid "About Us Page Team Heading Two"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:74
+msgid "Enter Team Heading Two for ABOUT US Page."
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:77
+msgid "About Us Page Team Tag line"
+msgstr ""
+
+#: ../theme_options/pages/head_titles.php:79
+msgid "Enter Team Tag line for ABOUT US Page."
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:28
+msgid "Footer Call Out Area"
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:42
+msgid "Call Out Text"
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:44
+msgid "Enter the call out text."
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:47
+msgid "Call Out Button Text"
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:49
+msgid "Enter the Call Out Button Text."
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:52
+msgid "Call Out Button Link"
+msgstr ""
+
+#: ../theme_options/pages/home_call_out_settings.php:54
+msgid "Enter the Call Out Button Link."
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:32
+msgid "Front Page Layout"
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:52
+msgid "Disabled"
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:67
+msgid "Enabled"
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:85
+msgid "Slider section always top on the home page"
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:86
+msgid "Note:"
+msgstr ""
+
+#: ../theme_options/pages/home_layout_manager.php:86
+msgid ""
+"By default all the section are enable on homepage. If you do not want to "
+"display any section just drag that section to the disabled box."
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:48
+msgid "Quick Start Settings"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:63
+msgid "Enable Front Page"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:64
+msgid "Enable front page ."
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:67
+msgid "Theme Color Schemes"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:70
+msgid "default.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:71
+msgid "blue.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:72
+msgid "green.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:73
+msgid "orange.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:74
+msgid "pink.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:75
+msgid "gray.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:76
+msgid "purple.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:77
+msgid "teal.css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:78
+msgid "Select color for you theme."
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:81
+msgid "Theme Layout"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:84
+msgid "wide"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:85
+msgid "boxed"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:86
+msgid "With the Help of box layout you can show sites background"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:89
+msgid "Custom background "
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:110
+msgid "Set your background"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:113
+msgid "Custom Logo"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:114
+msgid "Add custom logo from here suggested size is 150X50 px"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:124
+msgid "Logo Height"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:125
+msgid ""
+"Default Logo Height : 50px, if you want to increase than specify your value"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:130
+msgid "Logo Width"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:131
+msgid ""
+"Default Logo Width : 150px, if you want to increase than specify your value"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:136
+msgid "Text Title"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:137
+msgid "Enable text-based Site Title.   Setup title"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:137
+msgid "Click Here"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:140
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:141
+msgid "Make sure you upload .icon image type which is not more then 25X25 px."
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:150
+msgid "Google Tracking Code"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:152
+msgid ""
+"Paste your Google Analytics tracking code here. This will be added into "
+"themes footer. Copy only scripting code i.e no need to use script tag "
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:155
+msgid "Custom css"
+msgstr ""
+
+#: ../theme_options/pages/home_page_settings.php:157
+msgid ""
+"This is a powerful feature provided here. No need to use custom css plugin, "
+"just paste your css code and see the magic."
+msgstr ""
+
+#: ../theme_options/pages/home_project_portfolio_settings.php:40
+#: ../theme_options/pages/typography.php:279
+msgid "Portfolio Title"
+msgstr ""
+
+#: ../theme_options/pages/home_project_portfolio_settings.php:42
+msgid "Enter the Portfolio Title."
+msgstr ""
+
+#: ../theme_options/pages/home_project_portfolio_settings.php:45
+msgid "Portfolio Description"
+msgstr ""
+
+#: ../theme_options/pages/home_project_portfolio_settings.php:47
+msgid "Enter the Portfolio Description."
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:33
+msgid "Service Settings"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:47
+#: ../theme_options/pages/typography.php:331
+msgid "Site intro"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:49
+msgid "Add your site intro text."
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:52
+msgid "Call Now Text"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:54
+msgid "Add your Call Now Tex text."
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:57
+msgid "Call Now Number"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:59
+msgid "Add your Call Now Number."
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:62
+msgid "Awesome Services"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:64
+msgid "Services Title"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:66
+msgid "Enter the service title."
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:69
+msgid "Services Description"
+msgstr ""
+
+#: ../theme_options/pages/home_service_settings.php:71
+msgid "Enter the service description."
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:38
+msgid "Slider Settings"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:52
+msgid "Enable Home Slider"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:54
+msgid "Enable slider on front page."
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:57
+msgid "Animation"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:60
+msgid "fade"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:61
+msgid "slide"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:63
+msgid "Select the Animation Type."
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:66
+msgid "Slide direction"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:69
+msgid "vertical"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:70
+msgid "horizontal"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:72
+msgid "Select Slide direction."
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:75
+msgid "Animation speed"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:90
+msgid "Select Slide Animation speed."
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:93
+msgid "Slideshow speed"
+msgstr ""
+
+#: ../theme_options/pages/home_slider_settings.php:108
+msgid "Select the Slide Show Speed."
+msgstr ""
+
+#: ../theme_options/pages/option_faq_settings.php:60
+msgid "FAQ"
+msgstr ""
+
+#: ../theme_options/pages/option_faq_settings.php:81
+msgid "Enter the Faq Title."
+msgstr ""
+
+#: ../theme_options/pages/option_faq_settings.php:83
+msgid "Enter the Faq Description."
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:48
+msgid "Slider Slug"
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:50
+msgid "Enter slider slug."
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:53
+msgid "Service Slug"
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:55
+msgid "Enter service slug."
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:58
+msgid "Testimonial Slug"
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:60
+msgid "Enter testimonial slug."
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:63
+msgid "Portfolio/Project Slug"
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:65
+msgid "Enter portfolio slug."
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:68
+msgid "Our Team Slug"
+msgstr ""
+
+#: ../theme_options/pages/post_type_slug.php:70
+msgid "Enter our team slug."
+msgstr ""
+
+#: ../theme_options/pages/typography.php:143
+msgid "Enable Custom Typography"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:144
+msgid "Enable the use of custom typography for your site."
+msgstr ""
+
+#: ../theme_options/pages/typography.php:147
+msgid "General Typography"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:153
+#: ../theme_options/pages/typography.php:181
+#: ../theme_options/pages/typography.php:207
+#: ../theme_options/pages/typography.php:233
+#: ../theme_options/pages/typography.php:259
+#: ../theme_options/pages/typography.php:285
+#: ../theme_options/pages/typography.php:311
+#: ../theme_options/pages/typography.php:337
+#: ../theme_options/pages/typography.php:363
+#: ../theme_options/pages/typography.php:389
+msgid "px"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:169
+#: ../theme_options/pages/typography.php:195
+#: ../theme_options/pages/typography.php:221
+#: ../theme_options/pages/typography.php:247
+#: ../theme_options/pages/typography.php:273
+#: ../theme_options/pages/typography.php:299
+#: ../theme_options/pages/typography.php:325
+#: ../theme_options/pages/typography.php:351
+#: ../theme_options/pages/typography.php:377
+#: ../theme_options/pages/typography.php:403
+msgid "Normal"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:170
+#: ../theme_options/pages/typography.php:196
+#: ../theme_options/pages/typography.php:222
+#: ../theme_options/pages/typography.php:248
+#: ../theme_options/pages/typography.php:274
+#: ../theme_options/pages/typography.php:300
+#: ../theme_options/pages/typography.php:326
+#: ../theme_options/pages/typography.php:352
+#: ../theme_options/pages/typography.php:378
+#: ../theme_options/pages/typography.php:404
+msgid "Italic"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:175
+msgid "Menu"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:201
+msgid "Post Title"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:227
+msgid "Page Title"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:253
+msgid "Service Title"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:305
+msgid "Widget Heading Title"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:357
+msgid "Call Out Area Description"
+msgstr ""
+
+#: ../theme_options/pages/typography.php:383
+msgid "Call Out Area Purches Button"
+msgstr ""
+
+#: ../widget/custom-sidebar.php:6
+msgid "Sidebar"
+msgstr ""
+
+#: ../widget/custom-sidebar.php:8
+msgid "The primary widget area"
+msgstr ""
+
+#: ../widget/custom-sidebar.php:16
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../widget/custom-sidebar.php:18
+msgid "footer widget area"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:15
+msgid "Health Center Footer Contact"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:16
+msgid "Your contact details display"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:44
+msgid "25, Lorem Lis Street"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:46
+msgid "Dhanmandi California US"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:48
+msgid "Phone:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:48
+#: ../widget/webritihc-footer-contact-widgets.php:49
+#: ../widget/webritihc-footer-contact-widgets.php:74
+#: ../widget/webritihc-footer-contact-widgets.php:77
+msgid "420-300-3850"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:49
+msgid "Fax:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:50
+msgid "Email:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:50
+msgid "info@webriti.com"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:66
+msgid "Contact Info"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:69
+msgid "New York City, USA "
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:71
+msgid "Dhanmandi California, US "
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:80
+msgid "info@webriti.com "
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:83
+#: ../widget/webritihc-footer-recent-works.php:74
+#: ../widget/webritihc-footer-usefull-links-widgets.php:66
+#: ../widget/webritihc-sidebar-latest-news.php:74
+msgid "Title:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:87
+msgid "Contact address:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:91
+msgid "Contact address Line Two:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:94
+msgid "Contact phone number:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:97
+msgid "Fax Number:"
+msgstr ""
+
+#: ../widget/webritihc-footer-contact-widgets.php:101
+msgid "Contact email address:"
+msgstr ""
+
+#: ../widget/webritihc-footer-recent-works.php:16
+msgid "Health Center Footer Recent Works"
+msgstr ""
+
+#: ../widget/webritihc-footer-recent-works.php:17
+#: ../widget/webritihc-sidebar-latest-news.php:17
+msgid "The Recent post display on your site "
+msgstr ""
+
+#: ../widget/webritihc-footer-recent-works.php:69
+msgid "Latest News"
+msgstr ""
+
+#: ../widget/webritihc-footer-recent-works.php:78
+#: ../widget/webritihc-footer-usefull-links-widgets.php:70
+#: ../widget/webritihc-sidebar-latest-news.php:78
+msgid "Number of pages to show:"
+msgstr ""
+
+#: ../widget/webritihc-footer-usefull-links-widgets.php:15
+msgid "Health Center Footer Usefull Links"
+msgstr ""
+
+#: ../widget/webritihc-footer-usefull-links-widgets.php:16
+msgid "The most Usefull page link on your site"
+msgstr ""
+
+#: ../widget/webritihc-footer-usefull-links-widgets.php:61
+msgid "Usefull Links"
+msgstr ""
+
+#: ../widget/webritihc-sidebar-latest-news.php:16
+msgid "Health Center Sidebar Recent Post"
+msgstr ""
+
+#: ../widget/webritihc-sidebar-latest-news.php:69
+msgid "Recent Post"
+msgstr ""

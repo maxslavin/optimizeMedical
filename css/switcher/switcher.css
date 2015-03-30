@@ -1,0 +1,122 @@
+﻿/*!
+ * Style Switcher Css By Shahid - Scientech IT-------------------------------------------------!
+ */
+
+#style-switcher h3 {  
+	border-bottom: 2px dotted #CCCCCC;
+    color: #3B3B3B;
+    font-family: 'OpenSansSemiBold';
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0 10px 1px;
+    padding-bottom: 12px;
+	}
+#style-switcher {
+	background-color: #fff;
+	width: 205px;
+	position:fixed;
+	top: 140px;
+	z-index: 999;
+	border-radius: 0 0 3px 0;
+	left: -206px;
+	border: 1px solid #e4e4e4;
+	border-left: 0;
+	border-top: 0;
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+	}
+#style-switcher div {
+	padding: 3px 18px 5px 18px;
+	background: #f9f9f9;
+	}
+#style-switcher h2 {
+	background-color: #3b3b3b;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0 0 0 20px;
+	margin:0;
+	line-height:40px;
+	font-family: 'OpenSansBold';
+	}
+#style-switcher h2 a {
+	background-color: #3b3b3b;
+	display: block;
+	height: 40px;
+	position: absolute;
+	right: -43px;
+	font-size:0px;
+	text-align:center;
+	padding: 11px;
+	color:#fff;
+	top: 0;
+	width: 43px;
+	text-decoration:none;
+	border-radius: 0 3px 3px 0;
+	}
+#style-switcher h2 a > i {
+	font-size: 20px;
+	}	
+	.colors {
+		list-style:none;
+		margin: 0 0px 20px 0;
+		overflow: hidden;
+		padding: 0 0 5px;
+	}
+	
+	.colors li {
+		float:left;
+		margin: 10px 10px 0 2px;
+	}
+	
+	.colors li a {
+		display: block;
+		width: 29px;
+		height: 29px;
+		cursor: pointer;
+		border-radius: 7px;
+		box-shadow: 0 0 2px #777777;
+	} 
+	
+	.layout-style select, .header-style select, 
+	.footer-style select, .header-color input {
+		width: 164px;
+		padding: 2px 5px;
+		color: #888;
+		cursor: pointer;
+		border-radius: 2px;
+		font-size: 13px;
+		margin: 2px 0 2px 2px;
+	}
+	
+	.header-color .sp-replacer  {
+		padding:4px 6px !important;
+	}
+	
+	.header-color .sp-replacer .sp-dd, .header-color .sp-replacer .sp-preview, div.header-color {
+		padding:0px 1px !important;
+	}
+	
+	.layout-style, .header-style, .header-color
+	.footer-style { padding: 0 !important; }
+	
+	.hc_default { background: #0482bf; }
+	.hc_green { background: #59ab02; }
+	.hc_orange {background: #FA6900; }
+	.hc_purple { background: #4B0049; }
+	.hc_pink { background: #F22853; }
+	.hc_gray { background: #555555; }
+	.hc_dark_blue { background: #00008B; }
+	.hc_teal { background: #006363; }
+
+	.hc_bg1 { background-image: url("../../images/bg-patterns/bg_img1.png"); }
+	.hc_bg2 { background-image: url("../../images/bg-patterns/bg_img2.png"); }
+	.hc_bg3 { background-image: url("../../images/bg-patterns/bg_img3.png"); }
+	.hc_bg4 { background-image: url("../../images/bg-patterns/bg_img4.png"); }
+	.hc_bg5 { background-image: url("../../images/bg-patterns/bg_img5.png"); }
+	.hc_bg6 { background-image: url("../../images/bg-patterns/bg_img6.png"); }
+	.hc_bg7 { background-image: url("../../images/bg-patterns/bg_img7.png"); }
+	.hc_bg8 { background-image: url("../../images/bg-patterns/bg_img8.png"); }
+	
+	
+	@media only screen and (max-width: 1023px) { #style-switcher { display: none; } }
+	   
