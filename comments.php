@@ -4,7 +4,7 @@
          <?php if ( have_comments() ) : ?>
 		<div class="hc_comment_section">	
 			<div class="hc_comment_title">
-				<h3><i class="fa fa-comments"></i><?php echo comments_number('No Comments', '1 Comment', '% Comments'); ?></h3>
+				<?php /* Disable Comments <h3><i class="fa fa-comments"></i><?php echo comments_number('No Comments', '1 Comment', '% Comments'); ?></h3> */ ?>
 			</div>
 			<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :  ?>		
 			<?php endif; ?>

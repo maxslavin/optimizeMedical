@@ -20,7 +20,7 @@
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>					
 					<div class="hc_post_detail">
 							<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><i class="fa fa-user"></i><?php echo get_the_author(); ?></a>
-							<a href="<?php the_permalink(); ?>"><i class="fa fa-comments"></i><?php comments_number( 'no comments', 'one comments', '% comments' ); ?></a>
+							<?php /* Disable Comments <a href="<?php the_permalink(); ?>"><i class="fa fa-comments"></i><?php comments_number( 'no comments', 'one comments', '% comments' ); ?></a> */ ?>
 							<?php if(get_the_tag_list() != '') { ?>
 							<div class="hc_tags">
 							<i class="fa fa-tags"></i><a href="<?php the_permalink(); ?>"><?php the_tags('', ', ', '<br />'); ?></a>					
