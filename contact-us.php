@@ -84,13 +84,13 @@
 				  <?php if($current_options['hc_contact_address_two']!='')
 				  { echo $current_options['hc_contact_address_two']; } ?><br>
 				  <?php if($current_options['hc_contact_phone_number']!='') { ?>
-				  <abbr title="Phone"><?php _e('Phone','health'); ?>:</abbr><?php echo $current_options['hc_contact_phone_number']; ?><br>
+				  <abbr title="Phone"><?php _e('Phone','health'); ?>:</abbr> <?php echo $current_options['hc_contact_phone_number']; ?><br>
 				  <?php } ?>
 				  <?php if($current_options['hc_contact_fax_number']!='') { ?>
 				  <abbr title="Fax"><?php _e('Fax','health'); ?>:</abbr><?php echo $current_options['hc_contact_fax_number']; ?><br>
 				  <?php } ?>
 				  <?php if($current_options['hc_contact_email']!='') { ?>
-				  <abbr title="Email"><?php _e('Email','health')?>:</abbr> <a href="mailto:#">info@healthcenter.com</a><br>
+				  <abbr title="Email"><?php _e('Email','health')?>:</abbr> <a href="mailto:<?php echo $current_options['hc_contact_email']; ?>"><?php echo $current_options['hc_contact_email']; ?></a><br>
 				  <?php } ?>
 				</address>
   			</div>

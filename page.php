@@ -11,12 +11,12 @@
 <!-- HC Page Header Section -->
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
+        <div class="col-md-12">
 			<div class="hc_page_detail_header_section">
 				<?php the_post(); ?>	
 				<div class="hc_post_date"><span class="date"><?php echo the_date('j'); ?></span><h6><?php echo the_time('M'); ?></h6>
 					<span class="year"><?php echo the_time('Y'); ?></span>
-				</div>				
+				</div>
 				<div class="hc_post_title_wrapper">									
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>					
 					<div class="hc_post_detail">
