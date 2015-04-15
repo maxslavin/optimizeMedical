@@ -1,7 +1,7 @@
 <!-- Footer Widget Secton -->
 <div class="hc_footer_widget_area">	
 	<div class="container">
-		<div class="row">
+		<!--div class="row">
 			<?php if ( is_active_sidebar( 'footer-widget-area' ) )
 			{ ?>
 			<div class="">
@@ -68,7 +68,7 @@
 				</address>
 			</div>
 			<?php } ?>
-		</div>
+		</div-->
 		
 		<div class="row hc_footer_area">
 			<div class="col-md-8">
@@ -76,7 +76,7 @@
 					$current_options = get_option('hc_pro_options');
 					if($current_options['footer_customizations']!='') { echo $current_options['footer_customizations']; }	?>
 					<a href="http://wordpress.org/"><?php _e('WordPress','health'); ?></a>. <?php if($current_options['created_by_text']!='') { echo $current_options['created_by_text']; } ?>
-					<a href="<?php if($current_options['created_by_link']!='') { echo $current_options['created_by_link']; } ?>"><?php if($current_options['created_by_webriti_text']!='') { echo $current_options['created_by_webriti_text']; } ?></a></p>
+					<a href="<?php if($current_options['created_by_link']!='') { echo $current_options['created_by_link']; } ?>"><?php if($current_options['created_by_webriti_text']!='') { echo $current_options['created_by_webriti_text']; } ?></a>.</p>
 			</div>
 			<?php if($current_options['footer_social_media_enabled']=='on') { ?>
 			<div class="col-md-4">

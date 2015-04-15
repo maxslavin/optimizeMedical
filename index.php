@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="row">
 		<div class="hc_page_header_area">
-			<h1><?php the_title();?></h1>
+			<h1>Blog<?php /* the_title(); */ ?></h1>
 		</div>
 	</div>
 </div>

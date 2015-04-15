@@ -65,6 +65,6 @@
 	</div>
 </div>
 <!-- /HC Service Column -->
-<?php get_template_part('index','testimonials'); ?>
+<?php /* get_template_part('index','testimonials'); */ ?>
 <!-- /HC Testimonial Column -->
 <?php get_footer(); ?>

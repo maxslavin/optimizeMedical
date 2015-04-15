@@ -11,7 +11,13 @@
 <!-- HC Page Header Section -->
 <div class="container">
 	<div class="row">
-        <div class="col-md-12">
+        <?php /* Maks Slavin - Start: Replace Blog Style Title with Std Title */ ?>
+        <div class="hc_page_header_area">
+            <h1><?php the_title();?></h1>
+        </div>
+        <?php /* Maks Slavin - End: Replace Blog Style Title with Std Title */ ?>
+
+        <!--div class="col-md-12">
 			<div class="hc_page_detail_header_section">
 				<?php the_post(); ?>	
 				<div class="hc_post_date"><span class="date"><?php echo the_date('j'); ?></span><h6><?php echo the_time('M'); ?></h6>
@@ -26,7 +32,7 @@
 				</div>
 				<div class="clear"></div>	
 			</div>
-		</div>
+		</div-->
 	</div>
 </div>
 <!-- /HC Page Header Section -->

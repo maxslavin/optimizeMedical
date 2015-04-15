@@ -798,7 +798,8 @@ a:hover, a:focus{
 
 /* Footer Widget Section Css------------------------------------------------------------ */
 .hc_footer_widget_area{
-	padding: 38px 0 20px;
+	/* padding: 38px 0 20px; */
+    padding: 0px 0px 20px 0px;
 }
 .hc_footer_widget_column{
 	margin-bottom: 50px;
@@ -1777,9 +1778,9 @@ a:hover, a:focus{
     text-transform: uppercase;
 }
 .hc_post_date h6 {
-    font-size: 14px;
+    font-size: 14px !important;
     font-weight: bold;
-    line-height: 17px;
+    line-height: 17px !important;
     margin: 4px 0 0;
     text-align: center;
 	text-transform: uppercase;
