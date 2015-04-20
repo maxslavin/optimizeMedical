@@ -32,8 +32,46 @@ body {
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
+
+/* Maksim Slavin - Start: Override theme default classes */
+.header_section .container {
+    width: 100%;
+    height: 156px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header_section .col-md-6 {
+    width: 345px;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+.header_section .row {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/OMG-Banner-Long-e1429475601904.png");
+    background-repeat: no-repeat;
+    background-position: 350px 3px;
+    background-size: 848px 151px;
+}
+
+.header_section .banner {
+    width: 848px;
+    height: 156px;
+    margin-left: 5px;
+}
+
+.navigation_section {
+    background: none repeat scroll 0 0 #00BFF2;
+}
+
+.navigation_section .navbar-nav > li > a {
+    border-right: 1px solid #00a7d4;
+}
+/* Maksim Slavin - End: Override theme default classes */
+
 .hc_logo {
-	margin-top: 40px;
+	/* margin-top: 40px; */
+    margin: 20px 15px;
 }
 .hc_logo h1 {
 	font-size: 36px;
@@ -45,6 +83,8 @@ body {
 }
 .hc_logo h1 > a {
     padding-right: 30px;
+    /* Maksim Slavin - added line below to hide Health Center theme logo */
+    background-image: none;
 }
 .head_cont_info {
 	margin-top: 30px;
@@ -3068,4 +3108,37 @@ video {
 /* Keep wide captions from overflowing their container. */
 .wp-caption { 
 max-width: 100%; 
+}
+
+/* Custom CSS added by Maks Slavin for Forms page */
+.form_box {
+    margin-top: 30px;
+    width: 500px;
+    border: 1px solid #E0E0E0;
+    padding: 15px 17px;
+}
+
+.form_box:hover {
+    background-color: #EEEEEE;
+}
+
+.form_box p {
+    font-size: 13px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+
+.form_box a {
+    font-family: 'OpenSansSemiBold';
+    color: #31A3DD;
+}
+
+.form_box .icon {
+    float: left;
+    margin-right: 17px;
+}
+
+.form_box .content {
+    float: left;
+    padding-top: 3px;
 }

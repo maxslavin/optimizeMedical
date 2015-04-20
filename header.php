@@ -44,19 +44,18 @@ $background_color = get_background_color();
 			<div class="col-md-6">
 				<div class="hc_logo">
 					<h1>
-						<a title="Health Center" href="<?php echo home_url( '/' ); ?>">
-						<?php if($hc_current_options['hc_texttitle'] =="on")
+						<a title="<?php echo get_bloginfo(); ?>" href="<?php echo home_url( '/' ); ?>">
+						<?php if($hc_current_options['hc_texttitle'] == "on")
 						{ echo get_bloginfo( ); }
-						else if($hc_current_options['upload_image_logo']!='') 
+						else if($hc_current_options['upload_image_logo'] != '')
 						{ ?>
 						<img src="<?php echo $hc_current_options['upload_image_logo']; ?>" style="height:<?php if($hc_current_options['height']!='') { echo $hc_current_options['height']; }  else { "50"; } ?>px; width:<?php if($hc_current_options['width']!='') { echo $hc_current_options['width']; }  else { "150"; } ?>px;" />
 						<?php } else { ?> <?php _e('Health','health'); ?> <span><?php _e('Center','health'); ?></span> <?php } ?>
 						</a>
-					</h1> 
+					</h1>
 				</div>
 			</div>					
 			<div class="col-md-6">
-			
 				<div class="head_cont_info">
 					<ul><?php if($hc_current_options['hc_contact_email']!='') { ?>
 						<li><i class="fa fa-envelope"></i><a href="mailto:<?php echo $hc_current_options['hc_contact_email']; ?>"><?php echo $hc_current_options['hc_contact_email']; ?></a></li>
