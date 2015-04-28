@@ -21,15 +21,15 @@
 <!-- /HC Page Header Section -->	
 	
 <!-- HC Service Section -->	
-<div class="container">
+<div class="container healthcare-services">
 	<div class="row">
 	<?php  
 	$count_posts = wp_count_posts( 'healthcenter_service')->publish;
-	$args = array( 'post_type' => 'healthcenter_service','posts_per_page' =>$count_posts); 	
-	$service = new WP_Query( $args ); 
+	$args = array( 'post_type' => 'healthcenter_service','posts_per_page' =>$count_posts, 'orderby' => 'menu_order', 'order' => 'ASC' );
+    $service = new WP_Query( $args );
 	if( $service->have_posts() )
 	{ while ( $service->have_posts() ) : $service->the_post(); ?>
-		<div class="col-md-4">
+		<div class="col-md-4 col-sm-6">
 			<div class="media hc_service_section">
 				<?php if(get_post_meta( get_the_ID(),'meta_service_link', true )) 
 					{ $meta_service_link=get_post_meta( get_the_ID(),'meta_service_link', true ); }

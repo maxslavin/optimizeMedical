@@ -60,6 +60,7 @@ function healthcenter_service_type()
 		'public' => true,
 		'menu_position' =>20,
 		'public' => true,
+        'hierarchical' => true,
 		'menu_icon' => WEBRITI_TEMPLATE_DIR_URI . '/images/option-icon-general.png',
 		)
 	);
