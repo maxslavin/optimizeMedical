@@ -71,7 +71,7 @@
 		</div-->
 		
 		<div class="row hc_footer_area">
-			<div class="col-md-8">
+			<div class="col-md-10">
 			<p><?php  
 					$current_options = get_option('hc_pro_options');
 					if($current_options['footer_customizations']!='') { echo $current_options['footer_customizations']; }	?>
@@ -79,7 +79,7 @@
 					<a href="<?php if($current_options['created_by_link']!='') { echo $current_options['created_by_link']; } ?>"><?php if($current_options['created_by_webriti_text']!='') { echo $current_options['created_by_webriti_text']; } ?></a>.</p>
 			</div>
 			<?php if($current_options['footer_social_media_enabled']=='on') { ?>
-			<div class="col-md-4">
+			<div class="col-md-2">
 				<div class="hc_footer_social">
 					<?php if($current_options['social_media_facebook_link']!='') { ?>
 					<a class="facebook" id="fb_tooltip" title="Facebook" href="<?php echo $current_options['social_media_facebook_link']; ?>">&nbsp;</a>

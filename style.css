@@ -38,12 +38,23 @@ body {
     .navbar-container.container {
         width: 100%;
     }
+    .page-template-service-template .healthcare-services .col-sm-6 {
+        min-height: 180px;
+    }
 }
 
 @media (min-width: 992px) {
     .page-template-service-template .healthcare-services .col-md-4 {
-        min-height: 200px;
+        min-height: 210px;
     }
+
+    .hc_footer_widget_area .hc_footer_area .col-md-10 {
+        padding-left: 25px;
+    }
+}
+
+.hc_footer_widget_area .container {
+    margin-left: 0px;
 }
 
 .header_section .container {
@@ -80,6 +91,62 @@ body {
     border-right: 1px solid #00a7d4;
 }
 /* Maksim Slavin - End: Override theme default classes */
+
+
+/* Maksim Slavin - Start: Service Image Overrides */
+.page-template-service-template .healthcare-services .hc_main_service {
+    border-radius: 0;
+    transition-duration: 0s;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 105px;
+}
+
+.page-template-service-template .healthcare-services .hc_service_section {
+    margin: 0;
+}
+
+.page-template-service-template .healthcare-services .chiropractic {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/chiropractic-e1430278455461.png");
+}
+
+.page-template-service-template .healthcare-services .cosmetic {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/cosmetic-e1430276840936.png");
+}
+
+.page-template-service-template .healthcare-services .endocrinology {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/endocrinology-e1430275844284.png");
+}
+
+.page-template-service-template .healthcare-services .nutri_inject {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/nutri_inject-e1430278445731.png");
+}
+
+.page-template-service-template .healthcare-services .pain_mgt {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/pain-e1430275833403.png");
+}
+
+.page-template-service-template .healthcare-services .phys_med {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/phys_med-e1430278433451.png");
+}
+
+.page-template-service-template .healthcare-services .phys_therapy {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/phys_therapy-e1430278420476.png");
+}
+
+.page-template-service-template .healthcare-services .prolotherapy {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/prolotherapy-e1430278409447.png");
+}
+
+.page-template-service-template .healthcare-services .sports_injury {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/sports_injury-e1430278396703.png");
+}
+
+.page-template-service-template .healthcare-services .weight_loss {
+    background-image: url("http://optimizemedicalgroup.dev/wp-content/uploads/2015/04/weight_loss-e1430278465291.png");
+}
+/* Maksim Slavin - End: Service Image Overrides */
+
 
 .hc_logo {
 	/* margin-top: 40px; */
