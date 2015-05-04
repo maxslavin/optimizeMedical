@@ -53,6 +53,11 @@ body {
     }
 }
 
+.appointments_button {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
 .hc_footer_widget_area .container {
     margin-left: 0px;
 }
