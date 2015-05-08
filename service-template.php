@@ -40,7 +40,8 @@
 					</div>
 				</div>
 				<div class="media-body">
-					<h3><a href="<?php echo $meta_service_link; ?>" <?php  if(get_post_meta( get_the_ID(),'meta_service_target', true )) { echo "target='_blank'"; }  ?>><?php echo the_title(); ?></a></h3>
+                    <h3><?php echo the_title(); ?></h3>
+                    <?php /* <h3><a href="<?php echo $meta_service_link; ?>" <?php  if(get_post_meta( get_the_ID(),'meta_service_target', true )) { echo "target='_blank'"; }  ?>><?php echo the_title(); ?></a></h3> */ ?>
 					<p><?php echo get_service_template_excerpt(); ?></p>
 				</div>
 			</div>
