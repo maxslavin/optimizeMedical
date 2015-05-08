@@ -79,8 +79,17 @@ body {
     width: 510px;
 }
 
+.hc_footer_area .col-md-10, .hc_footer_area .col-md-2 {
+    float: left;
+}
+
+.hc_footer_area .col-md-2 {
+    padding-right: 30px;
+}
+
 .hc_footer_widget_area .container {
     margin-left: 0px;
+    width: 100%;
 }
 
 .header_section .container {
