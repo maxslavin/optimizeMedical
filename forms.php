@@ -45,6 +45,9 @@
                         $content = ob_get_contents();
                         ob_end_clean();
 
+                        // Define counter to uniquely identify doc hyperlinks
+                        $aId = 1;
+
                         $docs_defined = true;
                         while($docs_defined)
                         {
@@ -71,9 +74,9 @@
                                 // Apply HTML formatting
                                 ob_start(); ?>
 
-                                <div class="form_box">
+                                <div class="form_box" onclick="document.getElementById('doc<?php echo $aId; ?>').click();">
                                     <div class="icon"><img src="<?php echo $docArr["icon"]; ?>" alt="<?php echo $docArr["alt"]; ?>" title="<?php echo $docArr["alt"]; ?>" /></div>
-                                    <div class="content"><a href="<?php echo $docArr["url"]; ?>"><?php echo $docArr["title"]; ?></a><p><?php echo $docArr["desc"]; ?></p></div>
+                                    <div class="content"><a href="<?php echo $docArr["url"]; ?>" id="doc<?php echo $aId; ?>"><?php echo $docArr["title"]; ?></a><p><?php echo $docArr["desc"]; ?></p></div>
                                     <div class="clear"></div>
                                 </div>
 
@@ -83,6 +86,9 @@
 
                                 // Replace pseudo-code doc definition with HTML formatted version, within content
                                 $content = substr($content, 0, $start) . $form_doc . substr($content, $end+7);
+
+                                // Increment counter
+                                $aId++;
                             }
                         }
 
