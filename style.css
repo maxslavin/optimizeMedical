@@ -34,16 +34,21 @@ body {
 }
 
 /* Maksim Slavin - Start: Override theme default classes */
-@media (min-width: 768px) {
+@media (min-width: 768px)
+{
     .navbar-container.container {
         width: 100%;
     }
     .page-template-service-template .healthcare-services .col-sm-6 {
         min-height: 180px;
     }
+    .gmap2 {
+        margin-left: 0px;
+    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px)
+{
     .page-template-service-template .healthcare-services .col-md-4 {
         min-height: 210px;
     }
@@ -51,11 +56,27 @@ body {
     .hc_footer_widget_area .hc_footer_area .col-md-10 {
         padding-left: 25px;
     }
+
+    .gmap2 {
+        margin-left: 70px;
+    }
 }
 
 .appointments_button {
     margin-top: 40px;
     margin-bottom: 0px;
+}
+
+.gmap {
+    float: left;
+}
+.gmap iframe {
+    width: 530px;
+    height: 300px;
+}
+.gmap .hc_contactv1_address {
+    margin-top: 20px;
+    width: 510px;
 }
 
 .hc_footer_widget_area .container {
@@ -3200,6 +3221,7 @@ max-width: 100%;
     width: 500px;
     border: 1px solid #E0E0E0;
     padding: 15px 17px;
+    cursor: pointer;
 }
 
 .form_box:hover {
