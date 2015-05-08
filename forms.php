@@ -51,16 +51,19 @@
                         $docs_defined = true;
                         while($docs_defined)
                         {
+                            // Define Start and End tags
+                            $start_tag = "[doc ";
+                            $end_tag = "][/doc]";
                             // Find start and end of doc definition
-                            $start = strpos($content, "[doc ");
-                            $end = strpos($content, "][/doc]");
-                            if(!$start || !$end) {
+                            $start_pos = strpos($content, $start_tag);
+                            $end_pos = strpos($content, $end_tag);
+                            if(!$start_pos || !$end_pos) {
                                 $docs_defined = false;
                             }
                             else
                             {
                                 // Parse out the attributes
-                                $attrs_str = substr($content, $start+5, $end-($start+5));
+                                $attrs_str = substr($content, $start_pos + strlen($start_tag), $end_pos - ($start_pos + strlen($start_tag)));
                                 $attrs = explode(" || ", $attrs_str);
 
                                 // Build the array
@@ -85,7 +88,7 @@
                                 ob_end_clean();
 
                                 // Replace pseudo-code doc definition with HTML formatted version, within content
-                                $content = substr($content, 0, $start) . $form_doc . substr($content, $end+7);
+                                $content = substr($content, 0, $start_pos) . $form_doc . substr($content, $end_pos + strlen($end_tag));
 
                                 // Increment counter
                                 $aId++;
