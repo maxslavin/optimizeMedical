@@ -1,12 +1,12 @@
 <?php
-// Template Name: Contact-Us
+// Template Name: Contact Us
 /**
 * @Theme Name	:	Health-Center
-* @file         :	contact-page.php
+* @file         :	contact-us.php
 * @package      :	Health-Center
 * @author       :	Hari Maliya
 * @license      :	license.txt
-* @filesource   :	wp-content/themes/health-center/contact-page.php
+* @filesource   :	wp-content/themes/health-center/contact-us.php
 */
 ?>
 <?php get_header(); ?>	
