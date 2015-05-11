@@ -57,7 +57,7 @@
                             // Find start and end of doc definition
                             $start_pos = strpos($content, $start_tag);
                             $end_pos = strpos($content, $end_tag);
-                            if(!$start_pos || !$end_pos) {
+                            if($start_pos === false || $end_pos === false) {
                                 $docs_defined = false;
                             }
                             else
