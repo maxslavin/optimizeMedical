@@ -49,8 +49,8 @@
                         while($maps_defined)
                         {
                             // Define Start and End tags
-                            $start_tag = "[gmap ";
-                            $end_tag = "][/gmap]";
+                            $start_tag = "[gmap]";
+                            $end_tag = "[/gmap]";
                             // Locate them within the content
                             $start_pos = strpos($content, $start_tag);
                             $end_pos = strpos($content, $end_tag);
@@ -61,15 +61,15 @@
                             else
                             {
                                 // Parse out the attributes
-                                $attrs_str = substr($content, $start_pos + strlen($start_tag), $end_pos - ($start_pos + strlen($start_tag)));
-                                $attrs = explode(" || ", $attrs_str);
+                                $attrs_str = substr($content, $start_pos + 1 + strlen($start_tag), $end_pos - ($start_pos + 1 + strlen($start_tag)));
+                                $attrs = preg_split('/<br[^>]*>/i', $attrs_str);
 
                                 // Build the array
                                 $mapArr = array();
                                 for($i = 0; $i < count($attrs); $i++)
                                 {
-                                    list($key, $value) = preg_split("[==]", $attrs[$i]);
-                                    $mapArr[$key] = $value;
+                                    list($key, $value) = preg_split("/[\s]+==[\s]+/", $attrs[$i]);
+                                    $mapArr[trim($key)] = trim($value);
                                 }
 
                                 // Apply HTML formatting
@@ -79,7 +79,12 @@
                                     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php echo $mapArr["src"]; ?>"></iframe>
                                     <div class="hc_contactv1_address">
                                         <h3><?php echo $mapArr["loc_title"]; ?></h3>
-                                        <address><?php echo $mapArr["loc_addr"]; ?></address>
+                                        <address><?php
+                                            echo $mapArr["loc_addr1"] . "<br>" .
+                                                 $mapArr["loc_addr2"] . "<br>" .
+                                                 $mapArr["phone"] . "<br>" .
+                                                 "<a href='mailto:". $mapArr["email"] ."'>". $mapArr["email"] ."</a>"; ?>
+                                        </address>
                                         <h5><?php echo $mapArr["sub_title1"]; ?></h5>
                                         <p><?php echo $mapArr["sub_text1"]; ?></p>
                                         <h5><?php echo $mapArr["sub_title2"]; ?></h5>

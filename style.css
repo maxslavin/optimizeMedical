@@ -79,6 +79,10 @@ body {
     width: 510px;
 }
 
+.gmap .hc_contactv1_address, .hc_contactv2_address {
+    margin-bottom: 0;
+}
+
 .hc_footer_area .col-md-10, .hc_footer_area .col-md-2 {
     float: left;
 }
