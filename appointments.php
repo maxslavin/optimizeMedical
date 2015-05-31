@@ -63,7 +63,7 @@
                             <select id="service" name="service" class="hc_con_input_control">
                                 <option value=""></option>
                                 <option value="chiro" <?php if($_POST['service'] == "chiro") { echo "selected='selected'"; } ?>>Chiropractic Care</option>
-                                <option value="cosmetic" <?php if($_POST['service'] == "cosmetic") { echo "selected='selected'"; } ?>>Cosmetic Procedures</option>
+                                <!--option value="cosmetic" <?php if($_POST['service'] == "cosmetic") { echo "selected='selected'"; } ?>>Cosmetic Procedures</option-->
                                 <option value="endo" <?php if($_POST['service'] == "endo") { echo "selected='selected'"; } ?>>Functional Endocrinology</option>
                                 <option value="weight" <?php if($_POST['service'] == "weight") { echo "selected='selected'"; } ?>>Medical Weight Loss</option>
                                 <option value="nutri" <?php if($_POST['service'] == "nutri") { echo "selected='selected'"; } ?>>Nutrition Injections</option>
@@ -75,6 +75,7 @@
                             <span style="display:none; color:red" id="service_error">Please Select The Service You Are Interested In.</span>
                         </div>
                         <div class="hc_form_group">
+                            <?php /*
                             <div style="float:left;">
                                 <label>Preferred Location <small>*</small></label>
                                 <select id="location" name="location" class="hc_con_input_control" style="width:150px;">
@@ -84,16 +85,18 @@
                                 </select>
                             </div>
                             <div style="float:left; margin-left:85px;">
+                            */ ?>
+                            <div style="float:left;">
                                 <label>Preferred Day of Week <small>*</small></label>
                                 <select id="day" name="day" class="hc_con_input_control" style="width:130px;">
                                     <option value="any" <?php if($_POST['day'] == "any") { echo "selected='selected'"; } ?>>Any</option>
                                     <option value="mon" <?php if($_POST['day'] == "mon") { echo "selected='selected'"; } ?>>Monday</option>
-                                    <option value="tue" <?php if($_POST['day'] == "tue") { echo "selected='selected'"; } ?>>Tuesday</option>
+                                    <!--option value="tue" <?php if($_POST['day'] == "tue") { echo "selected='selected'"; } ?>>Tuesday</option-->
                                     <option value="wed" <?php if($_POST['day'] == "wed") { echo "selected='selected'"; } ?>>Wednesday</option>
-                                    <option value="thu" <?php if($_POST['day'] == "thu") { echo "selected='selected'"; } ?>>Thursday</option>
+                                    <!--option value="thu" <?php if($_POST['day'] == "thu") { echo "selected='selected'"; } ?>>Thursday</option-->
                                     <option value="fri" <?php if($_POST['day'] == "fri") { echo "selected='selected'"; } ?>>Friday</option>
-                                    <option value="sat" <?php if($_POST['day'] == "sat") { echo "selected='selected'"; } ?>>Saturday</option>
-                                    <option value="sun" <?php if($_POST['day'] == "sun") { echo "selected='selected'"; } ?>>Sunday</option>
+                                    <!--option value="sat" <?php if($_POST['day'] == "sat") { echo "selected='selected'"; } ?>>Saturday</option-->
+                                    <!--option value="sun" <?php if($_POST['day'] == "sun") { echo "selected='selected'"; } ?>>Sunday</option-->
                                 </select>
                             </div>
                             <div style="float:left; margin-left:85px;">
@@ -156,11 +159,11 @@
                 $flag = 0;
                 echo "<script>jQuery('#service_error').show();</script>";
             }
-            else if(empty($_POST['location']))
+            /* else if(empty($_POST['location']))
             {
                 $flag = 0;
                 echo "<script>jQuery('#location_error').show();</script>";
-            }
+            } */
             else
             {
                 if($flag == 1)
@@ -171,7 +174,7 @@
                         "\r\nEmail:: " . trim($_POST['email_addr']) .
                         "\r\nPhone:: " . trim($_POST['phone_number']) .
                         "\r\nService of Interest:: " . $_POST['service'] .
-                        "\r\nPreferred Location:: " . $_POST['location'] .
+                        /* "\r\nPreferred Location:: " . $_POST['location'] . */
                         "\r\nPreferred Day of Week:: " . $_POST['day'] .
                         "\r\nPreferred Time:: " . $_POST['time'];
                     $headers = "From: " . trim($_POST['fullname']) . " <" . trim($_POST['email_addr']) . ">\r\nReply-To:" . trim($_POST['email_addr']);
